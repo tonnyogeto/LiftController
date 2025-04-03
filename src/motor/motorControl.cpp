@@ -1,6 +1,6 @@
 #include "motorControl.h"
 
-int motorSpeed = 100; // Default speed (adjustable from 0-255)
+int motorSpeed = 15; // Default speed (adjustable from 0-255)
 
 void motorSetup() {
     Serial.begin(9600);
